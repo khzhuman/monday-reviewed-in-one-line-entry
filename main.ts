@@ -1,3 +1,5 @@
+// Writes the one-line Monday review to entry.txt without a trailing newline.
+// Enforces the competition's 200-character gate before writing.
 import { mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 
